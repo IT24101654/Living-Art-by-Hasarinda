@@ -44,4 +44,16 @@ This project is built using **Spring Boot** for the backend and **HTML, CSS, Jav
 ---
 
 ## 📁 Project Structure
-
+living-art
+├── controller
+├── entity
+├── repository
+├── service
+├── serviceImpl
+├── resources
+│ ├── templates
+│ ├── static
+│ │ ├── css
+│ │ └── js
+│ └── application.properties
+└── pom.xml
