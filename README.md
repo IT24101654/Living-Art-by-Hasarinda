@@ -1,42 +1,18 @@
-# 🎨 Living Art – Pencil Portrait Website
+# React + Vite
 
-Living Art is a web-based platform created to showcase and manage **hand-drawn pencil portrait artworks**.  
-The website allows visitors to view artwork galleries, learn about the artist, and place portrait orders easily.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project is built using **Spring Boot** for the backend and **HTML, CSS, JavaScript, and Thymeleaf** for the frontend.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🌟 Features
+## React Compiler
 
-- 🖼 Pencil portrait gallery (Single, Couple, Family)
-- 📄 Artwork details and categories
-- 📝 Order request form
-- 📱 WhatsApp order integration
-- 🌍 Bilingual support (English & Sinhala)
-- 🎨 Clean, minimal, art-focused design
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
----
+Note: This will impact Vite dev & build performances.
 
-## 🛠 Tech Stack
+## Expanding the ESLint configuration
 
-### Backend
-- Java
-- Spring Boot
-- Spring MVC
-- Spring Data JPA
-- Maven
-
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- Thymeleaf
-
-### Database
-- PostgreSQL
-
-### Other Tools
-- Git & GitHub
-- Render (for deployment)
-- Cloudinary (for image hosting – planned)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
